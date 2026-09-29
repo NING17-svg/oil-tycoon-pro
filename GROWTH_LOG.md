@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-29 - Adsterra six-unit integration applied
+
+- Task: Replace empty Adsterra placeholders in `src/data/ads.ts` with the six fixed unit codes (Native Banner, Banner 728x90/468x60/320x50/160x600, Smartlink) collected from the Adsterra Publishers dashboard.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None; placement containers were already wired in the shared template and now carry the six real values.
+- Ad baseline: Fixed Adsterra unit values are populated for `oil-tycoon.pro`; the existing empty-state non-network contract is replaced by the live six-unit contract for this launch.
+- Verification: `npm run verify` (typecheck, lint, template/content/SEO validators, full build) passed locally.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
