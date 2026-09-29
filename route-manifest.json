@@ -1,0 +1,162 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "oil-tycoon-backrooms",
+    "translationKey": "oil-tycoon-backrooms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-backrooms",
+    "alternates": {
+      "en-US": "/oil-tycoon-backrooms"
+    }
+  },
+  {
+    "id": "oil-tycoon-badges",
+    "translationKey": "oil-tycoon-badges",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-badges",
+    "alternates": {
+      "en-US": "/oil-tycoon-badges"
+    }
+  },
+  {
+    "id": "oil-tycoon-codes",
+    "translationKey": "oil-tycoon-codes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-codes",
+    "alternates": {
+      "en-US": "/oil-tycoon-codes"
+    }
+  },
+  {
+    "id": "oil-tycoon-discord",
+    "translationKey": "oil-tycoon-discord",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-discord",
+    "alternates": {
+      "en-US": "/oil-tycoon-discord"
+    }
+  },
+  {
+    "id": "oil-tycoon-factory-upgrades",
+    "translationKey": "oil-tycoon-factory-upgrades",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-factory-upgrades",
+    "alternates": {
+      "en-US": "/oil-tycoon-factory-upgrades"
+    }
+  },
+  {
+    "id": "oil-tycoon-npcs",
+    "translationKey": "oil-tycoon-npcs",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-npcs",
+    "alternates": {
+      "en-US": "/oil-tycoon-npcs"
+    }
+  },
+  {
+    "id": "oil-tycoon-release-status",
+    "translationKey": "oil-tycoon-release-status",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-release-date",
+    "alternates": {
+      "en-US": "/oil-tycoon-release-date"
+    }
+  },
+  {
+    "id": "oil-tycoon-overview",
+    "translationKey": "oil-tycoon-overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-roblox",
+    "alternates": {
+      "en-US": "/oil-tycoon-roblox"
+    }
+  },
+  {
+    "id": "oil-tycoon-secret-ending",
+    "translationKey": "oil-tycoon-secret-ending",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-secret-ending",
+    "alternates": {
+      "en-US": "/oil-tycoon-secret-ending"
+    }
+  },
+  {
+    "id": "oil-tycoon-tips",
+    "translationKey": "oil-tycoon-tips",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-tips",
+    "alternates": {
+      "en-US": "/oil-tycoon-tips"
+    }
+  },
+  {
+    "id": "oil-tycoon-trailer",
+    "translationKey": "oil-tycoon-trailer",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oil-tycoon-trailer",
+    "alternates": {
+      "en-US": "/oil-tycoon-trailer"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
+    }
+  }
+]

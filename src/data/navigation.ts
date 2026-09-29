@@ -6,17 +6,21 @@ export interface LocalizedNavigationItem {
 }
 
 export const primaryNavigation: LocalizedNavigationItem[] = [
-  { href: "/wiki", labels: { "en-US": "Wiki" } },
-  { href: "/guides", labels: { "en-US": "Guides" } },
-  { href: "/release-date", labels: { "en-US": "Release Date" } },
-  { href: "/faq", labels: { "en-US": "FAQ" } },
+  { href: "/oil-tycoon-roblox/", labels: { "en-US": "Overview" } },
+  { href: "/oil-tycoon-codes/", labels: { "en-US": "Codes" } },
+  { href: "/oil-tycoon-backrooms/", labels: { "en-US": "Backrooms" } },
+  { href: "/oil-tycoon-secret-ending/", labels: { "en-US": "Secret Ending" } },
+  { href: "/oil-tycoon-badges/", labels: { "en-US": "Badges" } },
+  { href: "/oil-tycoon-tips/", labels: { "en-US": "Tips" } },
 ];
 
 export const footerNavigation: LocalizedNavigationItem[] = [
   { href: "/about", labels: { "en-US": "About" } },
-  { href: "/contact", labels: { "en-US": "Contact" } },
-  { href: "/privacy-policy", labels: { "en-US": "Privacy" } },
-  { href: "/terms", labels: { "en-US": "Terms" } },
+  { href: "/oil-tycoon-roblox/", labels: { "en-US": "Overview" } },
+  { href: "/oil-tycoon-release-date/", labels: { "en-US": "Release Date" } },
+  { href: "/oil-tycoon-codes/", labels: { "en-US": "Codes" } },
+  { href: "/oil-tycoon-discord/", labels: { "en-US": "Discord" } },
+  { href: "/oil-tycoon-tips/", labels: { "en-US": "Tips" } },
 ];
 
 export function navigationLabel(
