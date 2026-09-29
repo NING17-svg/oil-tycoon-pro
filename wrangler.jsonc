@@ -9,7 +9,7 @@
   },
   "vars": {
     "NEXT_PUBLIC_SITE_URL": "https://oil-tycoon.pro",
-    "NEXT_PUBLIC_GA_MEASUREMENT_ID": "",
+    "NEXT_PUBLIC_GA_MEASUREMENT_ID": "G-0RJ9Q72NXY",
     "NEXT_PUBLIC_BING_SITE_AUTH_CODE": ""
   }
 }
