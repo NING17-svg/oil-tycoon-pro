@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-30 - Oil Tycoon guide pages restructured
+
+- Task: Repair the 11 launch guide pages that Builder had collapsed into oversized single prose blocks.
+- Files changed: all `src/data/pages/page-oil-tycoon-*.ts` guide files, `src/components/content/RichText.tsx`, `ModuleRenderer.tsx`, `StatusCallout.tsx`, `src/styles/modules.css`, and `scripts/validate-content.ts`.
+- URLs affected: `/oil-tycoon-roblox`, `/oil-tycoon-release-date`, `/oil-tycoon-codes`, `/oil-tycoon-discord`, `/oil-tycoon-backrooms`, `/oil-tycoon-secret-ending`, `/oil-tycoon-npcs`, `/oil-tycoon-factory-upgrades`, `/oil-tycoon-badges`, `/oil-tycoon-tips`, `/oil-tycoon-trailer`.
+- UX changed: Quick Answers are short again; each original H2 is restored as its own page section; H3 subheads, bullet lists and numbered checklists render structurally instead of appearing as newline text inside one paragraph; hero summaries are rewritten as reader-facing copy.
+- Regression guard: Oil Tycoon quick answers over 120 words, prose modules over 450 words, and leaked machine section markers now fail content validation.
+- Verification: typecheck, content validation, template validation and production static build passed locally; rendered HTML spot checks confirm separate H2/H3/list structure on codes, overview and tips pages.
+
 ### 2026-09-30 - Oil Tycoon homepage rebuilt
 
 - Task: Rebuild the live homepage after the initial Builder pass collapsed structured launch copy into a single prose wall and failed to realize the image-free split-panel theme.

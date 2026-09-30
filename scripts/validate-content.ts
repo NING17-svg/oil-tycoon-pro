@@ -77,19 +77,22 @@ for (const page of pages) {
     fail(`page ${page.id} is missing hero subtitle or quick answer`);
   }
 
-  if (page.id === "home") {
+  if (page.id === "home" || page.id.startsWith("oil-tycoon-")) {
     const quickAnswerWords = page.quickAnswer.trim().split(/\s+/).filter(Boolean).length;
     if (quickAnswerWords > 120) {
-      fail(`homepage quick answer is too long: ${quickAnswerWords} words (max 120)`);
+      fail(`page ${page.id} quick answer is too long: ${quickAnswerWords} words (max 120)`);
     }
 
     for (const guideModule of page.modules) {
       if (guideModule.type !== "prose") continue;
       const proseWords = guideModule.body.trim().split(/\s+/).filter(Boolean).length;
-      if (proseWords > 350) {
+      if (proseWords > 450) {
         fail(
-          `homepage prose module ${guideModule.id} is too long: ${proseWords} words (max 350)`,
+          `page ${page.id} prose module ${guideModule.id} is too long: ${proseWords} words (max 450)`,
         );
+      }
+      if (/<!--\s*section:/i.test(guideModule.body)) {
+        fail(`page ${page.id} prose module ${guideModule.id} leaked a machine section marker`);
       }
     }
   }

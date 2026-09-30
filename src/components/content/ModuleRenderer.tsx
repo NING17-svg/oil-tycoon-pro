@@ -4,6 +4,7 @@ import { DataTableBlock } from "@/components/content/DataTableBlock";
 import { EntityGrid } from "@/components/content/EntityGrid";
 import { MediaGallery } from "@/components/content/MediaGallery";
 import { RecipeList } from "@/components/content/RecipeList";
+import { RichText } from "@/components/content/RichText";
 import { ScheduleBlock } from "@/components/content/ScheduleBlock";
 import { StatusCallout } from "@/components/content/StatusCallout";
 import { StepList } from "@/components/content/StepList";
@@ -26,7 +27,7 @@ export function ModuleRenderer({ modules }: { modules: GuideModule[] }) {
                 className="content-module prose-module"
               >
                 <h2>{guideModule.heading}</h2>
-                <p>{guideModule.body}</p>
+                <RichText body={guideModule.body} />
                 {guideModule.links?.length ? (
                   <div className="inline-link-list">
                     {guideModule.links.map((link) => (
