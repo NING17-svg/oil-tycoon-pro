@@ -3,8 +3,9 @@ import type { FAQItem } from "@/types/content";
 export const faqItems: FAQItem[] = [
   {
     id: "faq-1",
-    question: `question`,
-    answer: `answer`,
+    question: `What is Oil Tycoon Roblox and who made it?`,
+    answer:
+      `Oil Tycoon is a Roblox tycoon experience published by jitmoney inc. The official store title is "Oil Tycoon!" and this guide hub focuses on that specific game.`,
     pageIds: ["home"],
     category: "site",
     schemaEligible: true,
@@ -12,8 +13,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-2",
-    question: `question`,
-    answer: `answer`,
+    question: `Where should a new Oil Tycoon player start?`,
+    answer:
+      `Start with the overview to understand the core loop, then check the codes page and beginner tips. The Backrooms, secret ending and badge guides are better once you know the basic progression.`,
     pageIds: ["home"],
     category: "site",
     schemaEligible: true,
@@ -21,8 +23,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-3",
-    question: `question`,
-    answer: `answer`,
+    question: `Does this site cover Oil Tycoon codes and secrets?`,
+    answer:
+      `Yes. The hub has focused pages for current code status, the Backrooms, the secret ending, badges, NPCs, factory upgrades and other common Oil Tycoon questions.`,
     pageIds: ["home"],
     category: "site",
     schemaEligible: true,
@@ -30,8 +33,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-4",
-    question: `question`,
-    answer: `answer`,
+    question: `How current are the Oil Tycoon guides?`,
+    answer:
+      `Each guide shows a review date. Official game identity and release information are checked against Roblox, while community-discovered secrets and routes are presented with separate verification context.`,
     pageIds: ["home"],
     category: "site",
     schemaEligible: true,

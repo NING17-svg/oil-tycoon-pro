@@ -77,6 +77,23 @@ for (const page of pages) {
     fail(`page ${page.id} is missing hero subtitle or quick answer`);
   }
 
+  if (page.id === "home") {
+    const quickAnswerWords = page.quickAnswer.trim().split(/\s+/).filter(Boolean).length;
+    if (quickAnswerWords > 120) {
+      fail(`homepage quick answer is too long: ${quickAnswerWords} words (max 120)`);
+    }
+
+    for (const guideModule of page.modules) {
+      if (guideModule.type !== "prose") continue;
+      const proseWords = guideModule.body.trim().split(/\s+/).filter(Boolean).length;
+      if (proseWords > 350) {
+        fail(
+          `homepage prose module ${guideModule.id} is too long: ${proseWords} words (max 350)`,
+        );
+      }
+    }
+  }
+
   if (!page.keyFacts.length && page.routeKind !== "entity-hub") {
     fail(`page ${page.id} has no key facts`);
   }

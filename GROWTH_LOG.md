@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-30 - Oil Tycoon homepage rebuilt
+
+- Task: Rebuild the live homepage after the initial Builder pass collapsed structured launch copy into a single prose wall and failed to realize the image-free split-panel theme.
+- Files changed: `src/components/pages/HomePage.tsx`, `src/data/pages/home.ts`, `src/styles/shells.css`, homepage FAQ entries in `src/data/faq.ts`, and the homepage content guard in `scripts/validate-content.ts`.
+- URL affected: `/`.
+- UX changed: The homepage now uses a real two-column hero with direct guide shortcuts, a concise quick answer, compact game facts, focused guide cards, and real homepage FAQs. The oversized prose block is removed from the rendered homepage.
+- Regression guard: Homepage quick answers over 120 words and homepage prose modules over 350 words now fail content validation.
+- Verification: `npm run typecheck`, `npm run validate:content`, `npm run validate:template`, `npm run build`, `npm run lint`, and `npm run validate:rendered-seo` all passed locally.
+
 ### 2026-09-29 - Adsterra six-unit integration applied
 
 - Task: Replace empty Adsterra placeholders in `src/data/ads.ts` with the six fixed unit codes (Native Banner, Banner 728x90/468x60/320x50/160x600, Smartlink) collected from the Adsterra Publishers dashboard.
