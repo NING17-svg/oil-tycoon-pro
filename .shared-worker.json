@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "site_id": "oil-tycoon-pro",
+  "worker": "moggedlooksmaxxordie-wiki",
+  "domain": "oil-tycoon.pro",
+  "repository": "NING17-svg/oil-tycoon-pro",
+  "deployment_repository": "NING17-svg/game-guide-pool-08",
+  "marker_path": "/__deployment.json",
+  "pool_id": "guide-pool-08"
+}
